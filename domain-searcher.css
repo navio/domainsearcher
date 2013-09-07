@@ -1,0 +1,43 @@
+body{ 
+  font-family: 'Gilda Display', cursive;
+}
+
+#domainfield{
+  width: 200px;
+  font-size: 22px;
+}
+
+.container li{
+  font-size: 35px;   
+  list-style: none;
+}
+
+.container li.taken:before
+{
+    content: '\2717';
+    color: red;
+   /* any design */
+}
+
+.container li.available:before
+{
+    content: '\2713';
+    color: green;
+}
+
+.container li.maybe:before
+{
+
+}
+
+input.rounded {
+    border: 3px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+13
+}
